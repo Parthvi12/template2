@@ -18,6 +18,16 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
+        "collection": {
+          "data": "Customers",
+          "viewType": "component",
+          "componentData": "Customers"
+        },
+        "command": {
+          "data": "FIND",
+          "viewType": "component",
+          "componentData": "FIND"
+        },
         "find": {
           "query": {
             "data": "{ CustomerEmailID: /{{data_table.searchText||\"\"}}/i }",
@@ -39,16 +49,6 @@
             "viewType": "component",
             "componentData": "{ \n{{key_select.selectedOptionValue}}: {{order_select.selectedOptionValue}} \n}"
           }
-        },
-        "collection": {
-          "data": "Customers",
-          "viewType": "component",
-          "componentData": "Customers"
-        },
-        "command": {
-          "data": "FIND",
-          "viewType": "component",
-          "componentData": "FIND"
         },
         "smartSubstitution": {
           "data": false,

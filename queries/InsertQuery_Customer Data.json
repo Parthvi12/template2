@@ -18,13 +18,6 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
-        "insert": {
-          "documents": {
-            "data": "{\n \"CustomerID\": {{insert_col_input1.text}}, \n \"CustomerEmailID\": {{insert_col_input2.text}}, \n \"CustomerName\": {{insert_col_input3.text}}, \n \"UsersDoNotDisturb\": {{Switch2.isSwitchedOn?1:0}}\n}",
-            "viewType": "component",
-            "componentData": "{\n \"CustomerID\": {{insert_col_input1.text}}, \n \"CustomerEmailID\": {{insert_col_input2.text}}, \n \"CustomerName\": {{insert_col_input3.text}}, \n \"UsersDoNotDisturb\": {{Switch2.isSwitchedOn?1:0}}\n}"
-          }
-        },
         "collection": {
           "data": "Customers",
           "viewType": "component",
@@ -34,6 +27,13 @@
           "data": "INSERT",
           "viewType": "component",
           "componentData": "INSERT"
+        },
+        "insert": {
+          "documents": {
+            "data": "{\n \"CustomerID\": {{insert_col_input1.text}}, \n \"CustomerEmailID\": {{insert_col_input2.text}}, \n \"CustomerName\": {{insert_col_input3.text}}, \n \"UsersDoNotDisturb\": {{Switch2.isSwitchedOn?1:0}}\n}",
+            "viewType": "component",
+            "componentData": "{\n \"CustomerID\": {{insert_col_input1.text}}, \n \"CustomerEmailID\": {{insert_col_input2.text}}, \n \"CustomerName\": {{insert_col_input3.text}}, \n \"UsersDoNotDisturb\": {{Switch2.isSwitchedOn?1:0}}\n}"
+          }
         },
         "smartSubstitution": {
           "data": true,

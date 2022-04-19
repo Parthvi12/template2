@@ -18,15 +18,15 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
-        "collection": {
-          "data": "Customers",
-          "viewType": "component",
-          "componentData": "Customers"
-        },
         "body": {
           "data": "{\"count\": \"Customers\"}\n",
           "viewType": "component",
           "componentData": "{\"count\": \"Customers\"}\n"
+        },
+        "collection": {
+          "data": "Customers",
+          "viewType": "component",
+          "componentData": "Customers"
         },
         "command": {
           "data": "RAW",

@@ -18,6 +18,16 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
+        "collection": {
+          "data": "MailingList",
+          "viewType": "component",
+          "componentData": "MailingList"
+        },
+        "command": {
+          "data": "FIND",
+          "viewType": "component",
+          "componentData": "FIND"
+        },
         "find": {
           "query": {
             "data": "",
@@ -39,16 +49,6 @@
             "viewType": "component",
             "componentData": "{_id:-1}"
           }
-        },
-        "collection": {
-          "data": "MailingList",
-          "viewType": "component",
-          "componentData": "MailingList"
-        },
-        "command": {
-          "data": "FIND",
-          "viewType": "component",
-          "componentData": "FIND"
         },
         "smartSubstitution": {
           "data": true,

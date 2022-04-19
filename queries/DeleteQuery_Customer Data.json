@@ -24,6 +24,11 @@
           "viewType": "component",
           "componentData": "Customers"
         },
+        "command": {
+          "data": "DELETE",
+          "viewType": "component",
+          "componentData": "DELETE"
+        },
         "delete": {
           "query": {
             "data": "{ _id: ObjectId('{{data_table.triggeredRow._id}}') }",
@@ -35,11 +40,6 @@
             "viewType": "component",
             "componentData": "SINGLE"
           }
-        },
-        "command": {
-          "data": "DELETE",
-          "viewType": "component",
-          "componentData": "DELETE"
         },
         "smartSubstitution": {
           "data": true,

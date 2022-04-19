@@ -18,6 +18,21 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
+        "body": {
+          "data": "{\n  \"find\": \"Customers\",\n  \"filter\": {\n    \"CustomerEmailID\": \"michael.woods@email.com\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n",
+          "viewType": "component",
+          "componentData": "{\n  \"find\": \"Customers\",\n  \"filter\": {\n    \"CustomerEmailID\": \"michael.woods@email.com\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n"
+        },
+        "collection": {
+          "data": "Customers",
+          "viewType": "component",
+          "componentData": "Customers"
+        },
+        "command": {
+          "data": "FIND",
+          "viewType": "component",
+          "componentData": "FIND"
+        },
         "find": {
           "query": {
             "data": "",
@@ -39,21 +54,6 @@
             "viewType": "component",
             "componentData": "{\"UsersDoNotDisturb\":0}"
           }
-        },
-        "collection": {
-          "data": "Customers",
-          "viewType": "component",
-          "componentData": "Customers"
-        },
-        "body": {
-          "data": "{\n  \"find\": \"Customers\",\n  \"filter\": {\n    \"CustomerEmailID\": \"michael.woods@email.com\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n",
-          "viewType": "component",
-          "componentData": "{\n  \"find\": \"Customers\",\n  \"filter\": {\n    \"CustomerEmailID\": \"michael.woods@email.com\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n"
-        },
-        "command": {
-          "data": "FIND",
-          "viewType": "component",
-          "componentData": "FIND"
         },
         "smartSubstitution": {
           "data": true,

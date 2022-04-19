@@ -18,6 +18,21 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
+        "collection": {
+          "data": "Customers",
+          "viewType": "component",
+          "componentData": "Customers"
+        },
+        "command": {
+          "data": "UPDATE",
+          "viewType": "component",
+          "componentData": "UPDATE"
+        },
+        "smartSubstitution": {
+          "data": true,
+          "viewType": "component",
+          "componentData": true
+        },
         "updateMany": {
           "query": {
             "data": "{ _id: ObjectId('{{data_table.selectedRow._id}}') }",
@@ -34,21 +49,6 @@
             "viewType": "component",
             "componentData": "{\n  \"CustomerID\" : {{update_col_1.text}},\n\t\"CustomerEmailID\" : {{update_col_2.text}},\n  \"CustomerName\" : {{update_col_3.text}},\n \"UsersDoNotDisturb\": {{Switch1.isSwitchedOn?1:0}}\n}"
           }
-        },
-        "collection": {
-          "data": "Customers",
-          "viewType": "component",
-          "componentData": "Customers"
-        },
-        "command": {
-          "data": "UPDATE",
-          "viewType": "component",
-          "componentData": "UPDATE"
-        },
-        "smartSubstitution": {
-          "data": true,
-          "viewType": "component",
-          "componentData": true
         }
       }
     },

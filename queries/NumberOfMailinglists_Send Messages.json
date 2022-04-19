@@ -18,15 +18,15 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
-        "collection": {
-          "data": "MailingList",
-          "viewType": "component",
-          "componentData": "MailingList"
-        },
         "body": {
           "data": "{\"count\": \"MailingList\"}\n",
           "viewType": "component",
           "componentData": "{\"count\": \"MailingList\"}\n"
+        },
+        "collection": {
+          "data": "MailingList",
+          "viewType": "component",
+          "componentData": "MailingList"
         },
         "command": {
           "data": "RAW",

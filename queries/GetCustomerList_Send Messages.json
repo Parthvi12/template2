@@ -18,6 +18,16 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
+        "collection": {
+          "data": "Customers",
+          "viewType": "component",
+          "componentData": "Customers"
+        },
+        "command": {
+          "data": "FIND",
+          "viewType": "component",
+          "componentData": "FIND"
+        },
         "find": {
           "query": {
             "data": "{CustomerID: {$in: {{List1.selectedItem.Users}}}}",
@@ -34,16 +44,6 @@
             "viewType": "component",
             "componentData": "{CustomerID:1}"
           }
-        },
-        "collection": {
-          "data": "Customers",
-          "viewType": "component",
-          "componentData": "Customers"
-        },
-        "command": {
-          "data": "FIND",
-          "viewType": "component",
-          "componentData": "FIND"
         },
         "smartSubstitution": {
           "data": true,

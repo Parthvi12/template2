@@ -18,27 +18,27 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
-        "count": {
-          "query": {
-            "data": "{\"UsersDoNotDisturb\": 1}",
-            "viewType": "component",
-            "componentData": "{\"UsersDoNotDisturb\": 1}"
-          }
+        "body": {
+          "data": "{\n  \"count\": \"customers\",\n  \"filter\": {\n    \"UsersDoNotDisturb\": 1\n\t}\n}\n",
+          "viewType": "component",
+          "componentData": "{\n  \"count\": \"customers\",\n  \"filter\": {\n    \"UsersDoNotDisturb\": 1\n\t}\n}\n"
         },
         "collection": {
           "data": "Customers",
           "viewType": "component",
           "componentData": "Customers"
         },
-        "body": {
-          "data": "{\n  \"count\": \"customers\",\n  \"filter\": {\n    \"UsersDoNotDisturb\": 1\n\t}\n}\n",
-          "viewType": "component",
-          "componentData": "{\n  \"count\": \"customers\",\n  \"filter\": {\n    \"UsersDoNotDisturb\": 1\n\t}\n}\n"
-        },
         "command": {
           "data": "COUNT",
           "viewType": "component",
           "componentData": "COUNT"
+        },
+        "count": {
+          "query": {
+            "data": "{\"UsersDoNotDisturb\": 1}",
+            "viewType": "component",
+            "componentData": "{\"UsersDoNotDisturb\": 1}"
+          }
         }
       }
     },

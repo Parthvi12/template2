@@ -18,13 +18,6 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "formData": {
-        "insert": {
-          "documents": {
-            "data": "\n{\"Discord_Webhook\":{{Webhook.text}}\n\"Mailinglist\":{{List_Name.text}}\n\"MailinglistID\":{{List_ID.text}}\n\"Icon\":{{Icon.text}}\n\"Users\":{{Table2.selectedRows.map(a => a.CustomerID)}}\n\"CreationDate\": ISODate({{moment().format('YYYY-MM-DDT00:00:00.000Z')}})\n}",
-            "viewType": "component",
-            "componentData": "\n{\"Discord_Webhook\":{{Webhook.text}}\n\"Mailinglist\":{{List_Name.text}}\n\"MailinglistID\":{{List_ID.text}}\n\"Icon\":{{Icon.text}}\n\"Users\":{{Table2.selectedRows.map(a => a.CustomerID)}}\n\"CreationDate\": ISODate({{moment().format('YYYY-MM-DDT00:00:00.000Z')}})\n}"
-          }
-        },
         "collection": {
           "data": "MailingList",
           "viewType": "component",
@@ -34,6 +27,13 @@
           "data": "INSERT",
           "viewType": "component",
           "componentData": "INSERT"
+        },
+        "insert": {
+          "documents": {
+            "data": "\n{\"Discord_Webhook\":{{Webhook.text}}\n\"Mailinglist\":{{List_Name.text}}\n\"MailinglistID\":{{List_ID.text}}\n\"Icon\":{{Icon.text}}\n\"Users\":{{Table2.selectedRows.map(a => a.CustomerID)}}\n\"CreationDate\": ISODate({{moment().format('YYYY-MM-DDT00:00:00.000Z')}})\n}",
+            "viewType": "component",
+            "componentData": "\n{\"Discord_Webhook\":{{Webhook.text}}\n\"Mailinglist\":{{List_Name.text}}\n\"MailinglistID\":{{List_ID.text}}\n\"Icon\":{{Icon.text}}\n\"Users\":{{Table2.selectedRows.map(a => a.CustomerID)}}\n\"CreationDate\": ISODate({{moment().format('YYYY-MM-DDT00:00:00.000Z')}})\n}"
+          }
         },
         "smartSubstitution": {
           "data": true,

@@ -14,6 +14,7 @@
   "unreadCommentThreads": 0,
   "color": "#C7F3E3",
   "icon": "book",
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

@@ -7,9 +7,5 @@
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
-  "createdAt": {
-    "seconds": 1649312119,
-    "nanos": 105000000
-  },
   "deleted": false
 }
